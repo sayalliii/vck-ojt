@@ -1,0 +1,45 @@
+.header-container {
+    background-color: #007bff;
+    padding: 15px 20px;
+  }
+  
+  /* Fixes inactive nav link color */
+  .header-container .nav-link {
+    color: white !important;
+  }
+  
+  /* Hover color fix */
+  .header-container .nav-link:hover {
+    color: #e0e0e0 !important;
+}
+  
+  /* Active link fix */
+  .header-container .primary-btn{
+    background-color: #28a745 !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+  }
+  .header-container .btn:hover {
+    color: white !important;
+
+    border-bottom: solid white 2px;
+
+  }
+  
+  /* College name fix */
+  .header-container .college-name {
+    color: #fff !important;
+    text-decoration:none;
+    font-weight: 700;
+    letter-spacing:0.9px;
+  }
+  
+  /* Responsive font size */
+  @media (max-width: 768px) {
+    .college-name {
+      font-size: 50px;
+      font-weight: 700;
+    }
+  }
+  

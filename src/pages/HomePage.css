@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .scroll-area {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    height: 500px;
+    max-width: 960;
+  }
+  
+body{
+    background-color:#52d2d2;
+}
+.hero-overlay-text {
+        color: #fff;
+    text-align: center;
+    padding: 30px 195px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5)!important;
+}
+.hero-overlay-text p{
+    text-align: center;
+    margin-top: 20px;
+}
+.nameh1 h1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    display: inline;
+}
+.nameh1{
+    height: 150px;
+    width: 1000px;
+    margin-top: 40px;
+}
+.home-container .mainp{
+    font-size: 1.3em;
+    text-align: center !important;
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(50%);
+  }
+  
+.home-container{
+    background-color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+  margin: 2rem auto;
+  height: 200vh;
+}
+.scroll-area {
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+  }
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .left{
+    float: left;
+    width: 49%;
+    height: 200px;
+    object-fit: cover;
+    display: inline;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .right{
+    float: right;
+    width: 49%;
+    height: 200px;
+    object-fit: cover;
+    display: inline;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .primary-btn{
+    clear:both;
+    background-color: #28a745 !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+  }
+  .main{
+    padding-top: 30px;
+  }
+  p{
+    text-align: left;
+  }
+  .clear{
+    clear:both ;
+    text-align: center;
+    padding-top: 15px;
+  }
+  ul li{
+    text-align: left;
+  }
+  .hero-btn{
+    background-color: #28a745;
+    font-size:1.2em;
+    padding:10px 25px;
+    text-decoration: underline;
+    color:  blue;
+    margin-top: 0;
+  }
+  .hero-btn:hover{
+    background-color:#28a745 ;
+    color:  blue;
+  }
