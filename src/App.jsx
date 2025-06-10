@@ -5,7 +5,6 @@ import About from './pages/AboutPage'
 import Courses from './pages/CoursesPage'
 import Contact from './pages/ContactPage'
 
-
 const App = () => {
   return (
     <Router>
