@@ -12,11 +12,10 @@ const HomePage = () => {
      <div className="scroll-area">
         <div className="home-container">
             <div className="hero-section">
-            <img src="/images/college-banner.png" alt="College Banner" className="hero-img" />
                 <div className="hero-overlay-text">
                     <div className="nameh1"><h1>Welcome to Vivekanand <br/>College!</h1></div>
-                    <a className="btn hero-btn" href="/AdmissionPage">Apply Now!</a>
                     <p>Your journey to excellence starts here.</p>
+                    <a className="btn hero-btn" href="/AdmissionPage">Apply Now!</a>
 
                 </div>
             </div>

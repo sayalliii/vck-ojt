@@ -4,6 +4,7 @@ import Home from './pages/HomePage'
 import About from './pages/AboutPage'
 import Courses from './pages/CoursesPage'
 import Contact from './pages/ContactPage'
+import Admission from './pages/AdmissionPage'
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
 
         <Route path="/coursespage" element={<Courses/>}/>
         <Route path="/contactpage" element={<Contact/>}/>
+        <Route path="/admissionpage" element={<Admission/>}/>
+
 
 
 

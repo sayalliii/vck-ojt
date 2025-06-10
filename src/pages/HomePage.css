@@ -15,17 +15,37 @@ html, body {
     display: flex;
     justify-content: center;
     padding: 1rem 0;
-    height: 500px;
+    height: 470px;
     max-width: 960;
   }
   
 body{
     background-color:#52d2d2;
+    
 }
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 350px; /* or whatever fits your design */
+  background-image: url('/images/college-banner.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
 .hero-overlay-text {
         color: #fff;
     text-align: center;
-    padding: 30px 195px;
+    padding: 30px 40px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.5)!important;
 }
@@ -36,7 +56,7 @@ body{
 .nameh1 h1{
     font-size: 3.5em;
     font-weight: bolder;
-    display: inline;
+    margin-bottom: 20px;
 }
 .nameh1{
     height: 150px;
@@ -52,13 +72,6 @@ body{
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
-  }
-  
-  .hero-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    filter: brightness(50%);
   }
   
 .home-container{
@@ -127,7 +140,7 @@ body{
   .hero-btn{
     background-color: #28a745;
     font-size:1.2em;
-    padding:10px 25px;
+    padding:10px 20px;
     text-decoration: underline;
     color:  blue;
     margin-top: 0;
