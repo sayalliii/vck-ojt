@@ -48,12 +48,14 @@
     font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 15px;
+    text-align: center;
   }
   .unique-message {
     color: #555;
     font-size: 0.95em;
     line-height: 1.5;
     margin-bottom: 20px;
+    text-align: center;
   }
   .ok-button {
     background-color: #007BFF;

@@ -22,7 +22,7 @@ const App = () => {
           onClose={handleClosePopup}
           studentName="Sayali Sunil Yadav"
           studentPhotoUrl="/images/image copy.png" // Path to their photo
-          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills."
         />
       </div>
     <Router>
