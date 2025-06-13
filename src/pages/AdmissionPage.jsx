@@ -4,6 +4,8 @@ import './AdmissionPage.css'
 import "../components/Header/Header.css";
 import "../components/Footer/Footer.css";
 import Footer from "../components/Footer/Footer";
+import { Link } from 'react-router-dom'
+
 const AdmissionsPage = () => {
     return (
         <>
@@ -15,7 +17,7 @@ const AdmissionsPage = () => {
                     <p>Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
                 </section>
                 <section className="ad-table">
-                    <h2>Eligibility Criteria for Undergraduate Programs</h2>
+                    <h2 className="hh2">Eligibility Criteria for Undergraduate Programs</h2>
                     <table>
                         <thead>
                             <tr>
@@ -47,7 +49,10 @@ const AdmissionsPage = () => {
                         </tbody>
                     </table>
                 </section>
+                <h2 className="hh2">Application Process</h2>
+
                 <section className="list">
+
                     <ol>
                         <li>Online Application: Fill out the application form available on our portal.</li>
                         <li>Document Submission: Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
@@ -55,10 +60,14 @@ const AdmissionsPage = () => {
                         <li>Merit List & Interview: Check the merit list and attend the interview if shortlisted.</li>
                         <li>Fee Payment: Complete the admission by paying the required fees.</li>
                     </ol>
+                    <p id="para">
+        For detailed information on postgraduate program admissions, specific
+        program syllabi, and fee structures,<br/> please visit our
+        <Link to="/coursespage">Courses page</Link> or
+        <Link to="/contactpage">Contact us</Link> directly.
+      </p>
                 </section>
-                <section className="para">
-                    <p>Fee Payment: Complete the admission by paying the required fees.</p>
-                </section>
+                
             </div>
         </>
     )
